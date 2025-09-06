@@ -1,0 +1,105 @@
+/* div{ */
+    /* % rem em vh px  */
+    /* height: 10rem;
+    width: 30%;
+    background-color: rgba(0,0,255, 0.5);
+    display: inline-block;
+} */
+
+
+/* .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    height: 10rem;
+    width:25%;
+    background-color: aqua;
+
+}
+
+#my-p{
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 900; */
+    /* letter-spacing: 1px;
+    word-spacing: 5px; */
+    /* width: 30%;
+    line-height: 5rem;
+    height: auto;
+    background-color: bisque;
+    overflow:hidden;
+    text-align: justify; */
+    /* padding: 15px 30px 10px 25px;
+     */
+     /* padding-top:5%;
+     margin: 5% auto; */
+    /* text-decoration: underline; */
+    /* text-decoration-color: black;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-style: dashed;
+    font-style: italic; */
+      /* font-family: "Cossette Titre", sans-serif;
+
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+}
+ul{
+    list-style-type: none;
+}
+:root{
+    --mainColor: #5D5FEF;
+}
+.container{
+    width:90%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.w-25{
+    width:25%;
+}
+.w-50{
+    width:50%;
+}
+.w-100{
+    width: 100%;
+}
+.rounded{
+    border-radius: 50%;
+}
+
+.card{
+    width:30%;
+    border: 2px solid var(--mainColor);
+    padding: 2%;
+}
+/* responsive design */
+@media (max-width: 768px) {
+    .card{
+        width: 50%;
+    }
+}
+@media (max-width:567px) {
+    .card{
+        width: 100%;
+    }
+}
+
