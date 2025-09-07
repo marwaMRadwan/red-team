@@ -202,4 +202,38 @@ const log = console.log
 
 const names = ["Marwa", "Ali", "Sara", "Omar", "Lina", "Youssef", "Nour", "Hassan", "Aya", "Khaled"];
 
-names.forEach(name=> log(`your name is ${name}`))
+// names.forEach(name=> log(`your name is ${name}`))
+
+// let result = names.findIndex(name=>  name.includes("i") )
+
+// console.log(result)
+
+// names.lastIndexOf("Ali")
+
+// let user = {
+//     "id": 1,
+//     "name":"test",
+//     "age":25,
+//     "email": "test@email.com"
+// }
+// user.id
+// user["id"]
+
+// usser["abc"] = "test"
+
+const data = [
+  { "id": 1, "name": "Alice Johnson", "email": "alice@example.com", "role": "admin" },
+  { "id": 2, "name": "Bob Smith", "email": "bob@example.com", "role": "user" },
+  { "id": 3, "name": "Charlie Lee", "email": "charlie@example.com", "role": "editor" },
+  { "id": 4, "name": "Diana King", "email": "diana@example.com", "role": "user" },
+  { "id": 5, "name": "Ethan Wright", "email": "ethan@example.com", "role": "moderator" },
+  { "id": 6, "name": "Fiona Green", "email": "fiona@example.com", "role": "user" },
+  { "id": 7, "name": "George Brown", "email": "george@example.com", "role": "admin" },
+  { "id": 8, "name": "Hannah Davis", "email": "hannah@example.com", "role": "editor" },
+  { "id": 9, "name": "Ian Clark", "email": "ian@example.com", "role": "user" },
+  { "id": 10, "name": "Julia Adams", "email": "julia@example.com", "role": "moderator" }
+]
+
+data.forEach(d=>{
+    console.log(`${d.id} - ${d.name} - ${d.role}`)
+})
