@@ -1,0 +1,76 @@
+/* div{
+    height: 10rem;
+    width: 30%;
+    background-color: red;
+    position: relative;
+}
+#p1{
+    background-image: URL(../../../creativa-10-8/s4/images/image.png);
+    height: 20rem;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    /* z-index:9999 */
+/* }
+#p2{ */
+    /* background-color: green;
+    opacity: 0.1; */
+    /* background-color: rgba(0,255,0,0.1);
+     height: 20rem;
+    width: 100%;
+    display: none; */
+    /* z-index:8 */
+/* }
+#p1, #p2{
+    position: absolute;
+}
+
+div:hover #p2{
+    display: block;
+} */
+
+section{
+    margin: 5% auto;
+    width:80%;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width:30%;
+    border: 2px solid black;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.card-img img{
+    max-width: 100%;
+}
+
+.card-content{
+    padding: 4%;
+}
+.card-content h2{
+    color: blue;
+    font-size:1.4rem;
+    font-weight: 900;
+}
+.card-content p{
+    line-height: 1.2rem;
+    height: 3.6rem;
+    overflow: hidden;
+}
+.card-content a{
+    background-color: violet;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+        padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+.img-fluid{
+    max-width: 100%;
+}
